@@ -227,7 +227,8 @@ body {
     color: white;
     padding: 44px 48px;
     border-radius: 10px;
-    box-shadow: 0 22px 45px #08265a30
+    box-shadow: 0 22px 45px #08265a30;
+    margin-top: 65px;
 }
 
 .admit-panel h2,
