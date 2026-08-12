@@ -227,8 +227,7 @@ body {
     color: white;
     padding: 44px 48px;
     border-radius: 10px;
-    box-shadow: 0 22px 45px #08265a30;
-    margin-top: 65px;
+    box-shadow: 0 22px 45px #08265a30
 }
 
 .admit-panel h2,
@@ -808,4 +807,51 @@ footer a {
     .achievement-grid div {
         padding: 23px 18px
     }
+}
+
+/* Purpose-specific campus imagery. Existing overlays, sizing and motion remain unchanged. */
+.facility.f1,
+.facility.f2,
+.facility.f3,
+.facility.f4,
+.facility.f5 {
+    background-image: linear-gradient(0deg, #04142fe8, #0a3e7f60)
+}
+
+.event.e1,
+.event.e2,
+.event.e3 {
+    background-image: linear-gradient(0deg, #071733e8, #1967a333)
+}
+
+.gallery-item.gallery-campus {
+    background-image: linear-gradient(0deg, #061b4190, transparent), url('assets/campus-hero.png')
+}
+
+.gallery-item.gallery-classroom {
+    background-image: linear-gradient(0deg, #061b4190, transparent), url('assets/global-smart-classroom-bhiwandi.webp')
+}
+
+.gallery-item.gallery-lab {
+    background-image: linear-gradient(0deg, #061b4190, transparent), url('assets/global-science-laboratory.webp')
+}
+
+.gallery-item.gallery-sports {
+    background-image: linear-gradient(0deg, #061b4190, transparent), url('assets/global-sports-day.webp')
+}
+
+.gallery-item.gallery-annual {
+    background-image: linear-gradient(0deg, #061b4190, transparent), url('assets/global-annual-day-event.webp')
+}
+
+.gallery-item.gallery-cultural {
+    background-image: linear-gradient(0deg, #061b4190, transparent), url('assets/global-cultural-activities.webp')
+}
+
+.gallery-item.gallery-exhibition {
+    background-image: linear-gradient(0deg, #061b4190, transparent), url('assets/global-science-exhibition.webp')
+}
+
+.gallery-item.gallery-library {
+    background-image: linear-gradient(0deg, #061b4190, transparent), url('assets/global-digital-library.webp')
 }
