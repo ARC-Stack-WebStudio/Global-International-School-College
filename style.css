@@ -10,3 +10,9 @@
 .gallery-item.gallery-cultural{background-image:linear-gradient(0deg,#061b4190,transparent),url('assets/global-cultural-activities.webp')}
 .gallery-item.gallery-exhibition{background-image:linear-gradient(0deg,#061b4190,transparent),url('assets/global-science-exhibition.webp')}
 .gallery-item.gallery-library{background-image:linear-gradient(0deg,#061b4190,transparent),url('assets/global-digital-library.webp')}
+
+/* Background-only Ken Burns motion for the active hero slide. */
+.hero-slide{overflow:hidden}.hero-slide-campus{background-image:none}.hero-slide-campus:before{content:'';position:absolute;inset:0;background:url('assets/campus-hero.png') center/cover;z-index:0}.hero-slide-image{z-index:0}.hero-slide .hero-shade{z-index:1}.hero-slide .orb,.hero-slide .container{z-index:2}.carousel-item.active .hero-slide-campus:before,.carousel-item.active .hero-slide-image{animation:hero-ken-burns 3s ease-in-out both}@keyframes hero-ken-burns{from{transform:scale(1)}to{transform:scale(1.08)}}
+
+/* Hero carousel: preserves the original hero treatment while adding a second campus story. */
+.hero{background:none}.hero-slide{position:relative;min-height:790px;background:center/cover}.hero-slide-campus{background-image:url('assets/campus-hero.png')}.hero-slide-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.hero .carousel-indicators{z-index:3;margin-bottom:10px;justify-content:flex-end;padding-right:6vw}.hero .carousel-indicators [data-bs-target]{width:9px;height:9px;margin:0 5px;border-radius:50%;background-color:var(--gold)}.hero .carousel-control-prev,.hero .carousel-control-next{z-index:3;width:7%;opacity:.8}.hero .carousel-control-prev:hover,.hero .carousel-control-next:hover{opacity:1}@media(max-width:991px){.hero-slide{min-height:720px}}@media(max-width:575px){.hero .carousel-control-prev,.hero .carousel-control-next{width:13%}.hero .carousel-indicators{justify-content:center;padding-right:0}}
